@@ -160,6 +160,7 @@ a:hover {
 }
 
 .about-me-container {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,12 +169,17 @@ a:hover {
     background-color: #333;
 }
 
+.image-hover-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .image-hover-container {
+    max-width: 100%;
     position: relative;
     display: inline-block;
-    width: 350px;
-    height: 467px;
-    margin: auto;
+    margin: 0 auto;
     font-size: 0; /* Removes unwanted space below the image */
 }
 
@@ -182,7 +188,6 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 95.6%;
     inset: 0;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 70%, rgba(0, 0, 0, 0) 100%);
     color: white;
@@ -202,8 +207,8 @@ a:hover {
 
 .profile-image {
     display: block;
-    width: 350px;
-    height: 466px;
+    width: auto;
+    height: auto;
     object-fit: cover;
 }
 
