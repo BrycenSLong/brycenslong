@@ -207,6 +207,21 @@ a:hover {
     object-fit: cover;
 }
 
+.certification-badge-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.certification-badge {
+    display: block;
+}
+
+.certification-badge img {
+    max-width: 200px;
+    height: auto;
+}
+
 #portfolio {
     background-color: #0f0f0f;
     color: white;
